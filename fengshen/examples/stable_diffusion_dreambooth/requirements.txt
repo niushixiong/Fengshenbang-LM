@@ -6,3 +6,4 @@ ftfy
 tensorboard
 modelcards
 deepspeed>==0.5.10
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
