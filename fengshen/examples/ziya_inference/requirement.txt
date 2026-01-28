@@ -1,5 +1,6 @@
 transformers>=4.28.1
 bitsandbytes>=0.39.0
-torch>=1.12.1
+torch>=2.10.0
 numpy>=1.24.3
 llama-cpp-python>=0.1.62
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
